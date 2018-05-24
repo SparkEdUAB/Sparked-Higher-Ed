@@ -1,4 +1,4 @@
-# SparkEd
+# SparkEd Higher Ed
 
 > Software for organizing and presenting educational and training content for delivery on most platforms.
 
