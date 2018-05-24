@@ -1,0 +1,69 @@
+{
+  "name": "SparkEd",
+  "private": true,
+  "scripts": {
+    "start": "meteor",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.44",
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "core-js": "^2.4.1",
+    "fs-extra": "^4.0.3",
+    "gridfs-stream": "^1.1.1",
+    "meteor-node-stubs": "^0.3.2",
+    "mmmagic": "^0.5.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-mounter": "^1.2.0",
+    "react-paginate": "^5.2.2",
+    "request": "^2.75.0",
+    "simpl-schema": "^1.4.2"
+  },
+  "version": "1.0.0",
+  "description": "Software for organizing and presenting educational and training content for delivery on most platforms.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkEdUAB/SparkEd.git"
+  },
+  "author": "SparkEd Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparkEdUAB/SparkEd/issues"
+  },
+  "homepage": "https://github.com/SparkEdUAB/SparkEd#readme",
+  "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.5",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-meteor": "^4.1.4",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.4.3"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "allowImportExportEverywhere": true
+    },
+    "plugins": [
+      "meteor"
+    ],
+    "extends": [
+      "airbnb",
+      "plugin:meteor/recommended"
+    ],
+    "settings": {
+      "import/resolver": "meteor"
+    }
+  }
+}
