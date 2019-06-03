@@ -3788,9 +3788,10 @@ react-mounter@^1.2.0:
     babel-runtime "6.x.x"
     domready "1.x.x"
 
-react-paginate@^5.2.2:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-5.2.3.tgz#1eea032f760a86736ad61fb64dab37a9e99fa351"
+react-paginate@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-6.3.0.tgz#29cbb5d1645227f4e4f959b9d7f43cfae603f801"
+  integrity sha512-lT/ne7hZzctGDli4QzUAou0JjfZgxKmtl9/r30B5UVonICZIy1u0SrAkdlEZ5ubgzrOykBeCmxkTWi5IyPg4AQ==
   dependencies:
     prop-types "^15.6.1"
 
