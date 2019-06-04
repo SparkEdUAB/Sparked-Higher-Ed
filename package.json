@@ -17,7 +17,7 @@
     "gridfs-stream": "^1.1.1",
     "merge": "^1.2.1",
     "meteor-node-stubs": "^0.4.1",
-    "mmmagic": "^0.5.0",
+    "mmmagic": "^0.5.3",
     "prop-types": "^15.6.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
